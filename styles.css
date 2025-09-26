@@ -597,14 +597,6 @@ section {
     gap: 1rem;
 }
 
-.gpa, .honors, .certification {
-    background-color: #e0e7ff;
-    color: #4f46e5;
-    padding: 0.3rem 0.8rem;
-    border-radius: 15px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
 
 /* Contact Section */
 .contact {
