@@ -607,11 +607,11 @@ section {
 }
 
 /* Certification Section */
-.certification-grid {
+/*.certification-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
-}
+}*/
 
 .certification-card {
     background-color: white;
