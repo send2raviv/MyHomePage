@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    line-height: .5;
+    line-height: 1.5;
     color: #333;
     background-color: #ffffff;
 }
@@ -128,7 +128,8 @@ body {
     grid-template-columns: 1.5fr 0.5fr;
     gap: 4rem;
     align-items: center;
-   
+    position: relative;
+    z-index: 1;
 }
 
 .hero-title {
