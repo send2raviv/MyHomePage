@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  margin: 10; /* Removes default margin from all elements */
+  padding: 60; /* Removes default padding from all elements */
+}
+
+/* Element selector: Styles the <body> element */
+body {
+  font-family: 'Arial', sans-serif; /* Sets the default font */
+  line-height: 1.6; /* Sets the line height for text */
+  background-color: orange; /* Sets a light grey background */
+  color: #c94040; /* Sets a dark grey text color */
+}
+
+h1{
+    color:red
+}
+
+#heroname {
+color:blue
+}
+
+.container {
+    width: 30%;
+    margin: 30  auto;
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid blue;
+  }
+  .header {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .header1  {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .parent-container {
+    display: flex;
+    /* Optional: Add space between containers */
+    column-gap: 20px;
+  }
+
+  .child-container-1,
+  .child-container-2, .child-container-3, .child-container-4, .child-container-5, .child-container-6 {
+    /* Optional: Define width or let flex items distribute space */
+    flex:1; /* This makes both children take equal available space */
+    /* Add other styling as needed */
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
